@@ -1,15 +1,12 @@
-// Meminta pengguna untuk memasukkan nilai
 let inputNilai = prompt("Masukkan nilai Anda:");
 
-// Mengonversi input menjadi angka
 let nilai = parseFloat(inputNilai);
 
-// Mengecek apakah input adalah angka yang valid
+
 if (isNaN(nilai)) {
     alert("Tolong masukkan nilai yang valid.");
 } else {
-    // Menentukan grade berdasarkan nilai
-    if (nilai >= 90) {
+        if (nilai >= 90) {
         alert("Grade A");
     } else if (nilai >= 80) {
         alert("Grade B");
